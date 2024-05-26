@@ -1,0 +1,31 @@
+<router-outlet>
+    <div class="container">
+        <div class="caption">
+            <h4>Thong tin sinh vien </h4>
+            <img src="assets/images/{{student.anh}}" width="200px" height="250px" style="object-fit: cover;" alt="">
+        </div>
+    </div>
+    <ul>
+        <li><span>Ho ten:</span>{{student.hoten}}</li>
+        <li><span>Gioi tinh:</span>{{student.gioitinh}}</li>
+        <li><span>Ngay sinh:</span>{{student.ngaysinh}}</li>
+        <li><span>Dia chi:</span>{{student.diachi}}</li>
+        <li><span>Diemtb:</span>{{student.diemtb}}</li>
+    </ul>
+
+    <table id="inventor">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Year</th>
+                <th>Passed</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+</router-outlet>
